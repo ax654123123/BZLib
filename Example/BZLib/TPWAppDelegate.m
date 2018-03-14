@@ -8,11 +8,14 @@
 
 #import "TPWAppDelegate.h"
 
+#import <BZLib/qwqw.h>
+
 @implementation TPWAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [qwqw sssss];
     return YES;
 }
 
